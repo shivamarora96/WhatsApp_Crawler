@@ -31,6 +31,7 @@ def Whatsapp_crawler(code):
         title = span.get('title')
 
         if title is not None:
+
             no_of_contacts += 1
 
             if title[0] is '+':
